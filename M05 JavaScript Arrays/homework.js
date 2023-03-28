@@ -205,15 +205,15 @@ function breakStatement(num) {
    // [PISTA]: utiliza el statement 'break'.
    // Tu código:
    var array = [];
-   var suma = num;
+   var sumar = num;
    for(var i=0;i<10;i++){
-      suma = suma + 2;
-      if(suma === i)
+      sumar = sumar + 2;
+      if(sumar === i)
       break;
-      else {array.push(suma);
+      else {array.push(sumar);
       }
    }
-   if(suma === i){return "Se interrumpió la ejecución";}
+   if(sumar === i){return "Se interrumpió la ejecución";}
    else {return array;}
 }
 
